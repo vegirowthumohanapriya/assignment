@@ -7,17 +7,21 @@ height: 100%;
 }
 .row{
     width: 100%;
-    display: block;
-    border: 2px solid;
-    margin: 5px;
-}
+    /* display: block; */
+    border: 1px solid;
+     /* margin: 5px;  */
+   }
 .col{
     display: inline-block;
-    width: 45%;
+    width: 35%;
     height: 50%;
-    margin: 30%;
+     /* margin: 30%; */
+     padding:20px
 }
 img{
     width: 70%;
     height: 70%;
 }
+/* .topleft{
+    text-align: right;
+} */

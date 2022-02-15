@@ -19,12 +19,18 @@ body{
     display: flex;
     background-color: white;
     padding:2px;
-    margin: 5px;
+    margin: 100px;
     height: 40%;
+    width: 80%;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
     
 }
 .card-pic{
     background-color: lightgreen;
+    text-indent: -10%;
+    /* width: 30%; */
 }
 .card-content{
     text-align: center;

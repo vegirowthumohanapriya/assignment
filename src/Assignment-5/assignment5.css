@@ -1,7 +1,36 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.container {
 width: 100%;
 height: 100%;
 }
+body{
+    background-color: gray;
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+}
+.content{
+    margin: 20px;
+    
+}
+.card {
+    display: flex;
+    background-color: white;
+    padding:2px;
+    margin: 5px;
+    height: 40%;
+    
+}
+.card-pic{
+    background-color: lightgreen;
+}
+.card-content{
+    text-align: center;
+}
+.card a{
+    background: lightgreen;
+    padding: 5px 10px;
+    text-decoration: none;
+   }
